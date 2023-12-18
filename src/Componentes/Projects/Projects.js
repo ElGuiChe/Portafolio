@@ -25,7 +25,7 @@ export default function () {
             titulo: "To Do List",
             descripcion: "Esta lista de pendientes se encuentra conectada a un servidor en Firebase. En este proyecto se crean, modifican y eliminan documentos en la nube de Firestore y se manipula el DOM mediante hooks de react para que el usuario pueda visualizar su listado de pendientes.",
             tecnologias: ["REACT", "JAVASCRIPT", "FIREBASE", "FIRESTORE", "BOOTSTRAP", "GIT", "GITHUB"],
-            imagen: '../'
+            imagen: 'https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/TODOLIST.jpg'
         },
         {
             titulo: "Portafolio Personal",
@@ -40,7 +40,7 @@ export default function () {
             <div className="card mb-3">
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <img src="..." className="img-fluid rounded-start" alt="..." />
+                        <img src={project.imagen} className="img-fluid rounded-start" alt="..." />
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
