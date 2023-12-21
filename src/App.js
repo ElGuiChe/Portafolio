@@ -7,14 +7,16 @@ import SocialMedia from './Componentes/SocialMedia/SocialMedia';
 
 function App() {
   return (
-    <div className="container">
+    <div className="container-fluid containerCustom">
       <div className="row">
-        <div className="col-4">
+        <div className="col-md-5 p-96">
+          <div className="sticky-top">
           <PresentationCard />
           <SideBar />
           <SocialMedia/>
+          </div>
         </div>
-        <div className="col-8">
+        <div className="col-md-7 p-96">
           <AboutMe />
           <Projects />
         </div>

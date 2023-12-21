@@ -1,0 +1,17 @@
+.iconContainer{
+    text-align:center
+}
+
+.icon{
+    border-radius: 50%; 
+}
+
+.icon:hover{
+    border-radius: 50%;
+    fill: rgb(226, 232, 240);
+    transition: all 0.5s;
+}
+
+.aSocial{
+    color: rgb(148, 163, 184);
+}

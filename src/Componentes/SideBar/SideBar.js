@@ -1,21 +1,20 @@
+import "./SideBar.css"
 export default function SideBar() {
-
     return (
-        <div>
-            <ul className="nav flex-column">
-                <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="google.com">Active</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="">Link</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link" href="">Link</a>
-                </li>
-                <li className="nav-item">
-                    <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-                </li>
+        <div className="d-none d-lg-block">
+            <ul className="menu-hover-fill flex flex-col items-start">
+                <li><a href="#" value="Sobre mí">Sobre mí</a></li>
+                <li><a href="#" value="Educación">Educación</a></li>
+                <li><a href="#" value="Experiencia">Experiencia</a></li>
+                <li><a href="#" value="Proyectos">Proyectos</a></li>
             </ul>
         </div>
     )
 }
+
+
+
+
+
+
+
