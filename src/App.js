@@ -3,6 +3,7 @@ import './App.css';
 import AboutMe from './Componentes/AboutMe/AboutMe';
 import PresentationCard from './Componentes/PresentationCard/PresentationCard';
 import Projects from './Componentes/Projects/Projects';
+import ProjectsContainer from './Componentes/ProjectsContainer/ProjectsContainer';
 import SocialMedia from './Componentes/SocialMedia/SocialMedia';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
         </div>
         <div className="col-md-7 p-96">
           <AboutMe />
-          <Projects />
+          <ProjectsContainer/>
         </div>
       </div>
     </div>
