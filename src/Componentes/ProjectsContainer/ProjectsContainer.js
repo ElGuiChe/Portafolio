@@ -5,7 +5,7 @@ export default function ProjectsContainer() {
     const proyectos = [
         {
             titulo: "Tienda Javascript",
-            descripcion: "Tienda virtual desarrollada principalmente con HTML, CSS y JAVASCRIPT. La tienda incluye varias secciones estáticas así como un carrito de compra funcional que además permite hacer la conversión a otras monedas mediante el uso de API. En este proyecto no aplica el uso de librerías o frameworks",
+            descripcion: "Tienda virtual desarrollada principalmente con HTML, CSS y JAVASCRIPT. La tienda incluye varias secciones estáticas así como un carrito de compra funcional que además permite hacer la conversión a otras monedas mediante el uso de API. En este proyecto no aplica el uso de librerías o frameworks.",
             tecnologias: ["JAVASCRIPT", "HTML", "CSS", "SASS", "API", "BOOTSTRAP", "GIT", "GITHUB"],
             imagen: "https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/JAVASCRIPTSHOP.png",
             alt: "Imagen proyecto tienda Javascript",
@@ -13,7 +13,7 @@ export default function ProjectsContainer() {
         },
         {
             titulo: "Tienda React",
-            descripcion: "Tienda virtual desarrollada en React. En este proyecto los productos se encuentran en una base de datos de Firebase y son llamados por la aplicación para ser mostrados al usuario. Adicionalmente cuenta con un carrito de compras funcional que al finalizar la compra envía al servidor de Firebase, los datos solicitados al usuario mediante un formulario",
+            descripcion: "Tienda virtual desarrollada en React. En este proyecto los productos se encuentran en una base de datos de Firebase y son llamados por la aplicación para ser mostrados al usuario. Adicionalmente cuenta con un carrito de compras funcional que al finalizar la compra envía al servidor de Firebase, los datos solicitados al usuario mediante un formulario.",
             tecnologias: ["REACT", "JAVASCRIPT", "FIREBASE", "FIRESTORE", "BOOTSTRAP", "GIT", "GITHUB"],
             imagen: "https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/REACTSHOP.jpg",
             alt: "Imagen proyecto tienda React",
@@ -29,7 +29,7 @@ export default function ProjectsContainer() {
         },
         {
             titulo: "Portafolio Personal",
-            descripcion: "Portafolio personal desarrollado con React",
+            descripcion: "Portafolio personal desarrollado con React.",
             tecnologias: ["REACT", "JAVASCRIPT", "BOOTSTRAP", "CSS"],
             imagen: "",
             alt: "Imagen proyecto Portafolio Personal",
@@ -39,6 +39,7 @@ export default function ProjectsContainer() {
 
     return (
         <section  id="projectsContainer">
+            <h2 className="d-lg-none d-lg-block">Proyectos</h2>
             <Projects proyectosLista={proyectos} />
         </section>
     )

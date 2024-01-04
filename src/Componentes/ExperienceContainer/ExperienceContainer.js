@@ -31,7 +31,9 @@ export default function ExperienceContainer() {
 
     return (
         <section  id="experienceContainer">
+            <h2 className="d-lg-none d-lg-block">Experiencia</h2>
             <Experience trabajosLista={trabajos} />
+            <a href='https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/TODOLIST.jpg' target="_blank" rel="noopener noreferrer">Echa un vistazo a mi CV completo aquí</a>
         </section>
     )
 }

@@ -7,8 +7,8 @@ export default function Projects({ proyectosLista }) {
             <div className="card mb-3 border-0">
                 <a className="aProjects" href={project.link} target="_blank" rel="noreferrer">
                     <div className="row g-0 backgroundEffect">
-                        <div className="col-md-4 pt-3">
-                            <img src={project.imagen} className="img-fluid rounded mt-1 ms-2 imgProjects" alt={project.alt} />
+                        <div className="col-md-4 p-3">
+                            <img src={project.imagen} className="img-fluid rounded imgProjects" alt={project.alt} />
                         </div>
                         <div className="col-md-8">
                             <div className="card-body">

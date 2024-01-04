@@ -27,6 +27,11 @@
   margin-top: 5px;
 }
 
+.backgroundEffect {
+  border-width: 1px;
+  border-radius: 5px;
+}
+
 .backgroundEffect:hover {
   background-color: rgb(23, 39, 75);
   border-radius: 5px;

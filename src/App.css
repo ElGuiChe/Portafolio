@@ -24,7 +24,9 @@ h2{
 }
 
 .p-96{
-  padding: 96px;
+  padding-top: 96px;
+  padding-right: 96px;
+  padding-left: 96px;
 }
 
 
