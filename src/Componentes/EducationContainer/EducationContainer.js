@@ -24,8 +24,8 @@ export default function EducationContainer () {
         },
         {
             centroEducativo: "EF Education First",
-            titulo: "",
-            link: "https://www.coderhouse.cl/certificados/626d6bccbb0f26002556f1e0",
+            titulo: "English Certificate 69/100 (C1 Advanced)",
+            link: "https://www.efset.org/cert/129P97",
         },
     ]
 

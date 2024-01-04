@@ -31,7 +31,7 @@ export default function ProjectsContainer() {
             titulo: "Portafolio Personal",
             descripcion: "Portafolio personal desarrollado con React.",
             tecnologias: ["REACT", "JAVASCRIPT", "BOOTSTRAP", "CSS"],
-            imagen: "",
+            imagen: "https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/PORTAFOLIO.png",
             alt: "Imagen proyecto Portafolio Personal",
             link: "",
         },
