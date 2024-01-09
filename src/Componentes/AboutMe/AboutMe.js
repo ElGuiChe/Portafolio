@@ -1,9 +1,14 @@
 export default function AboutMe() {
     return (
-        <section id="aboutMe" >
-            <h2 className="d-lg-none d-lg-block">Acerca de mí</h2>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ut placerat felis. Cras at velit elit. Aenean euismod arcu id ultricies euismod. Duis sollicitudin volutpat justo vel placerat. Vestibulum eu felis cursus, luctus quam at, vehicula sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aliquam vel leo nec lorem ornare lacinia. Praesent at auctor mauris, sed maximus augue.
+        <section className="mb-4" id="acercaDeMi" >
+            <h2>Acerca de mí</h2>
+            <p className="pt-3 ps-3 pe-3">
+                Contador Público de profesión, Front-End de corazón. En el año 2022 decidí iniciar mi
+                formación como Front-End en <strong>CoderHouse</strong> y aunque estuve alejado por un
+                tiempo de la programación, lo he retomado y me encuentro en la busqueda de empleo.
+            </p>
+            <p className="pb-3 ps-3 pe-3">
+            <strong>Te invito a seguir viendo mi portafolio y proyectos</strong>
             </p>
         </section>
     )

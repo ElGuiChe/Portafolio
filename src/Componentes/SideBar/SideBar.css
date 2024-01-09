@@ -44,7 +44,7 @@ a {
 
     &:hover {
       &::before {
-        left: calc(27%);
+        left: calc(100%);
       }
 
       a {

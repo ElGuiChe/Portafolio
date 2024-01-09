@@ -9,7 +9,7 @@ export default function PresentationCard() {
                 </a>
             </h1>
             <h2>Desarrolador Front-End</h2>
-            <p>Construyo experiencias digitales excepcionales y accesibles para la web.</p>
+            <p>Construyo experiencias digitales para la web.</p>
         </div>
     )
 }

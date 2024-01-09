@@ -30,8 +30,8 @@ export default function EducationContainer () {
     ]
 
         return (
-            <section  id="educationContainer">
-                <h2 className="d-lg-none d-lg-block">Educación</h2>
+            <section className="mb-4" id="educacion">
+                <h2>Educación</h2>
                 <Education educacionLista={educacion} />
             </section>
         )

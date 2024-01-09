@@ -38,8 +38,8 @@ export default function ProjectsContainer() {
     ]
 
     return (
-        <section  id="projectsContainer">
-            <h2 className="d-lg-none d-lg-block">Proyectos</h2>
+        <section className="mb-4" id="proyectos">
+            <h2>Proyectos</h2>
             <Projects proyectosLista={proyectos} />
         </section>
     )
