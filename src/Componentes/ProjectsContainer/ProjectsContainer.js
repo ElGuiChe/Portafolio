@@ -10,6 +10,7 @@ export default function ProjectsContainer() {
             imagen: "https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/JAVASCRIPTSHOP.png",
             alt: "Imagen proyecto tienda Javascript",
             link: "https://elguiche.github.io/BeGreen/index.html",
+            linkRepositorio: "https://github.com/ElGuiChe/BeGreen",
         },
         {
             titulo: "Tienda React",
@@ -18,6 +19,7 @@ export default function ProjectsContainer() {
             imagen: "https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/REACTSHOP.jpg",
             alt: "Imagen proyecto tienda React",
             link: "https://delicate-rolypoly-f9574a.netlify.app/",
+            linkRepositorio: "https://github.com/ElGuiChe/ReactECommerce",
         },
         {
             titulo: "To Do List",
@@ -26,14 +28,16 @@ export default function ProjectsContainer() {
             imagen: 'https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/TODOLIST.jpg',
             alt: "Imagen proyecto To Do List",
             link: "https://animated-lily-875d5a.netlify.app/",
+            linkRepositorio: "https://github.com/ElGuiChe/toDoList",
         },
         {
             titulo: "Portafolio Personal",
             descripcion: "Portafolio personal desarrollado con React.",
             tecnologias: ["REACT", "JAVASCRIPT", "BOOTSTRAP", "CSS"],
-            imagen: "https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/PORTAFOLIO.png",
+            imagen: "https://heartfelt-druid-7204fc.netlify.app/",
             alt: "Imagen proyecto Portafolio Personal",
-            link: "",
+            link: "https://heartfelt-druid-7204fc.netlify.app/",
+            linkRepositorio: "https://github.com/ElGuiChe/Portafolio",
         },
     ]
 

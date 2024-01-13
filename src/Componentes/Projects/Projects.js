@@ -21,6 +21,9 @@ export default function Projects({ proyectosLista }) {
                         </div>
                     </div>
                 </a>
+                <a className="aProjects" href={project.linkRepositorio} target="_blank" rel="noreferrer">
+                    Ver repositorio de {project.titulo} aquí
+                </a>
             </div>
         )
     }
