@@ -34,7 +34,7 @@ export default function ExperienceContainer() {
             <h2>Experiencia</h2>
             <Experience trabajosLista={trabajos} />
             <small>
-                <a ClassName="aprueba" Style={"color: rgb(94, 234, 212) !important"} href='https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/images/TODOLIST.jpg' target="_blank" rel="noopener noreferrer">Echa un vistazo a mi CV completo aquí</a>
+                <a ClassName="aprueba" Style={"color: rgb(94, 234, 212) !important"} href='https://raw.githubusercontent.com/ElGuiChe/Portafolio/master/public/CV%20Guillermo%20Galarraga.pdf' target="_blank" rel="noopener noreferrer">Echa un vistazo a mi CV completo aquí</a>
             </small>
         </section>
     )
